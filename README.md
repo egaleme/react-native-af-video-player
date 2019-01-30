@@ -1,4 +1,4 @@
-# react-native-af-video-player
+# react-native-gab-video-player
 
 [![npm version](http://img.shields.io/npm/v/react-native-af-video-player.svg?style=flat-square)](https://npmjs.org/package/react-native-af-video-player "View this project on npm")
 [![npm downloads](http://img.shields.io/npm/dm/react-native-af-video-player.svg?style=flat-square)](https://npmjs.org/package/react-native-af-video-player "View this project on npm")
@@ -8,7 +8,7 @@
 
 A customisable React Native video player for Android and IOS
 
-![Demo](https://github.com/abbasfreestyle/react-native-af-video-player/blob/master/demo.gif)
+![Demo](https://github.com/abbasfreestyle/react-native-gab-video-player/blob/master/demo.gif)
 
 ## Features
 
@@ -21,7 +21,7 @@ A customisable React Native video player for Android and IOS
 ## Install
 
 ```shell
-npm i -S react-native-af-video-player
+npm i -S react-native-gab-video-player
 ```
 
 Then link
