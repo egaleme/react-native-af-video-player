@@ -12,7 +12,7 @@ import {
 } from 'react-native'
 import VideoPlayer from 'react-native-video'
 import KeepAwake from 'react-native-keep-awake'
-import Orientation from 'react-native-orientation'
+import Orientation from 'react-native-orientation-locker'
 import Icons from 'react-native-vector-icons/MaterialIcons'
 import { Controls } from './'
 import { checkSource } from './utils'
@@ -134,9 +134,9 @@ class Video extends Component {
   onRotated({ window: { width, height } }) {
     // Add this condition incase if inline and fullscreen options are turned on
     if (this.props.inlineOnly) return
-    const orientation = width > height ? 'LANDSCAPE' : 'PORTRAIT'
+    const orientation = width > height ? 'LANDSCAPE-LEFT' : 'PORTRAIT'
     if (this.props.rotateToFullScreen) {
-      if (orientation === 'LANDSCAPE') {
+      if (orientation === 'LANDSCAPE-LEFT') {
         this.setState({ fullScreen: true }, () => {
           this.animToFullscreen(height)
           this.props.onFullScreen(this.state.fullScreen)
