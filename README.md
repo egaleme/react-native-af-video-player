@@ -8,7 +8,7 @@
 
 A customisable React Native video player for Android and IOS
 
-![Demo](https://github.com/abbasfreestyle/react-native-gab-video-player/blob/master/demo.gif)
+![Demo](https://github.com/abbasfreestyle/react-native-af-video-player/blob/master/demo.gif)
 
 ## Features
 
