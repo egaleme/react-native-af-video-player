@@ -39,7 +39,7 @@ react-native link react-native-linear-gradient
 ```jsx
 import React from 'react'
 import { AppRegistry, StyleSheet, View } from 'react-native'
-import Video from 'react-native-af-video-player'
+import Video from 'react-native-gab-video-player'
 
 const styles = StyleSheet.create({
   container: {
@@ -162,7 +162,7 @@ If you’re using react-navigation you need to manually hide the headers / tab b
 import React, { Component } from 'react'
 import { StyleSheet, View, ScrollView, Alert, Text } from 'react-native'
 
-import Video from 'react-native-af-video-player'
+import Video from 'react-native-gab-video-player'
 
 const styles = StyleSheet.create({
   container: {
@@ -246,7 +246,7 @@ Also having multiple videos in a ScrollView isn't perfect, so use at your own ri
 
 ```jsx
 
-  import Video, { ScrollView, Container } from 'react-native-af-video-player'
+  import Video, { ScrollView, Container } from 'react-native-gab-video-player'
 
   const styles = StyleSheet.create({
     container: {
