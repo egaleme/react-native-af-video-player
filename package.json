@@ -1,5 +1,5 @@
 {
-  "name": "react-native-af-video-player",
+  "name": "react-native-gab-video-player",
   "version": "0.2.1",
   "dependencies": {
     "react-native-keep-awake": "^2.0.6",
@@ -18,7 +18,7 @@
     "react-test-renderer": "16.0.0-beta.5"
   },
   "description": "A customisable React Native video player for Android and IOS",
-  "homepage": "https://github.com/abbasfreestyle/react-native-af-video-player#readme",
+  "homepage": "https://github.com/egaleme/react-native-gab-video-player#readme",
   "keywords": [
     "react-component",
     "react-native",
@@ -31,7 +31,9 @@
   "maintainers": [
     {
       "name": "abbasfreestyle",
-      "email": "abbasfreestyle@gmail.com"
+      "email": "abbasfreestyle@gmail.com",
+      "name":"egaleme",
+      "email":"egaleme@gmail.com"
     }
   ],
   "license": "MIT",
